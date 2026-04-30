@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💳 CakraPay - Fintech Dashboard
 
-## Getting Started
+A modern, premium fintech dashboard for managing wallets, transactions, and user roles. Built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## ✨ Features
 
+- **Multi-Wallet Management**: View and manage multiple currency wallets (USD, IDR, EUR, etc.).
+- **Transaction History**: Real-time transaction tracking with status indicators.
+- **Admin Panel**: Global overview of all wallets and transactions with administrative controls.
+- **Role Switching**: Seamlessly switch between different user identities for testing and management.
+- **Modern UI**: Clean, responsive design with dark mode support and smooth animations.
+
+## 🚀 Tech Stack
+
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **State Management**: [Zustand](https://zustand-demo.pmnd.rs/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+
+## 🛠️ Getting Started
+
+Follow these steps to set up the project locally:
+
+### 1. Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/WisnuCakraa/cakrapay.git
+cd cakrapay
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies
+```bash
+yarn install
+# or
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Environment Setup
+Create a `.env.local` file in the root directory and add the following:
+```env
+NEXT_PUBLIC_API_URL=http://localhost:3000/api
+```
+You can use `.env.example` as a template.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Run the Development Server
+```bash
+yarn dev
+# or
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## 📂 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `app/`: Next.js app router pages and layouts.
+- `components/`: Reusable UI and feature-specific components.
+- `hooks/`: Custom React hooks for data fetching and logic.
+- `services/`: API service layers.
+- `store/`: Global state management using Zustand.
+- `lib/`: Utility functions and shared constants.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+Distributed under the MIT License.
