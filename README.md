@@ -1,6 +1,32 @@
-# 💳 CakraPay - Fintech Dashboard
+<p align="center">
+  <h1 align="center">💳 CakraPay - Fintech Dashboard</h1>
+</p>
 
-A modern, premium fintech dashboard for managing wallets, transactions, and user roles. Built with Next.js, TypeScript, and Tailwind CSS.
+<p align="center">
+  <strong>A premium Fintech Dashboard for managing wallets, transactions, and user roles.</strong>
+</p>
+
+<p align="center">
+  <a href="https://cakrapay-vocagame.vercel.app/">
+    <img src="https://img.shields.io/badge/LIVE%20DEMO-VISIT%20SITE-blueviolet?style=for-the-badge" alt="Live Demo">
+  </a>
+  <img src="https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge" alt="License">
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,git" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  Built with the modern stack for <strong>Vocagame</strong>.<br/>
+  Focusing on clean architecture, tactile UX, and a robust testing suite.
+</p>
+
+A premium, high-performance Fintech Dashboard built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. This project was developed as a technical home test for **Vocagame**, focusing on clean architecture, advanced UX interactions, and a comprehensive testing suite.
 
 ## ✨ Features
 
@@ -61,4 +87,5 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - `lib/`: Utility functions and shared constants.
 
 ## 📝 License
+
 Distributed under the MIT License.
